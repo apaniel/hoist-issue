@@ -1,0 +1,21 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaniel/hoist-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaniel/hoist-issue/issues"
+  },
+  "homepage": "https://github.com/apaniel/hoist-issue#readme",
+  "workspaces":["app/**", "video/**"]
+}
